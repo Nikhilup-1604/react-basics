@@ -21,8 +21,8 @@
 
 // useEffect-->
                              
-import React,{Component} from "react";
-import StateUp from "./StateUp";
+// import React,{Component} from "react";
+// import StateUp from "./StateUp";
 // import useCustomCounter from "./Custom";
 // import Controlled from "./Controlled";
 // import Form2 from "./Form2";
@@ -71,14 +71,26 @@ import StateUp from "./StateUp";
 
 // Lifting state up --> 
 
-export default class App extends Component{
-    state={
-        name:"Aniket"
-    };
-    render(){
-        return (
-            <StateUp name={this.state.name} />
-        )
-    }
-}
+// export default class App extends Component{
+//     state={
+//         name:"Aniket"
+//     };
+//     render(){
+//         return (
+//             <StateUp name={this.state.name} />
+//         )
+//     }
+// }
 
+// CONTEXT API
+
+import React, { Component } from 'react'
+
+export default class App extends Component {
+    state=
+  render() {
+    return (
+      <div>App</div>
+    )
+  }
+}
